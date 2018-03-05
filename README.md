@@ -15,7 +15,8 @@ The Compare It app requires `Python3` and `Django`. Install the requirements by:
 ### Installation
 Clone the repo or download the zip.
 Create a virtual environment inside the CompareIt directory, activate the virtualenv and install the requirements.
-`python3 -m venv venv`
-`source venv/bin/activate`
-`pip install -r requirements.txt`
+```git clone https://github.com/divyamani1/CompareIt.git
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt```
 Finally, run `python manage.py runserver` to run the local server and access the local server from `127.0.0.1:8000`.
