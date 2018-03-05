@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ diff_html_table|safe }}
+<label for="index"><h3>Legend: </h3></label>
+<div class="row col-lg-12" id="index">
+    <div class="col-md-4 square-green">Text has been added.</div>
+    <div class="col-md-4 square-red">Text has been deleted.</div>
+    <div class="col-md-4 square-yellow">Text has been changed.</div>
+</div>
+{% endblock content %}
